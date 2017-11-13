@@ -1,0 +1,85 @@
+nav li{
+    list-style: none;
+}
+nav li ul{
+    float : left;
+    font-size : 20px;
+}
+header{
+    padding : 0;
+    margin : 0;
+    background-color:#262626;
+    color : white;
+    height : 85px;
+    border-bottom:5px solid #ff3300;
+}
+nav li ul a{
+    text-decoration: none;
+    color : white;
+}
+nav li ul a:hover{
+    color : #e6e6e6;
+}
+section{
+    min-width : 100px;
+}
+.active{
+    color :#595959;
+}
+#Content{
+    background-color : #ff4d4d;
+    height: 560px;;;
+    width : 100%;
+}
+#portfolio-container{
+
+}
+#portfolio{
+    float : left;
+    border : 1px solid black;
+    height : 430px;;
+    margin : 12px;
+    width : 48%;
+}
+#port-heading{
+    text-align : center;
+    color: #ffb3b3;
+    font-size : 25px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+#imageHolder{
+    height : 110px;
+    width : 100%;
+    position : relative;
+    margin-bottom : 120px;
+}
+#imageHolder img{
+    position : absolute;
+    top : 15px;
+    left : 250px;
+
+}
+#diagramView{
+    height : 800px;
+    width : 100%;
+    background-color: #ff4d4d;
+}
+#Details{
+    position: relative;
+}
+#Details p{
+    position : absolute;
+    top : 0px;
+    left : 250px;
+
+}
+#photowrapper{
+    position: relative;
+}
+#photowrapper img{
+    position: absolute;
+    top : 55px;
+    left : 155px;
+}

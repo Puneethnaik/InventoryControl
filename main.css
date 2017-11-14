@@ -32,14 +32,13 @@ section{
     width : 100%;
 }
 #portfolio-container{
-
 }
 #portfolio{
     float : left;
     border : 1px solid black;
     height : 430px;;
-    margin : 12px;
-    width : 48%;
+    margin : 1%;
+    width : 47%;
 }
 #port-heading{
     text-align : center;
@@ -57,13 +56,13 @@ section{
 }
 #imageHolder img{
     position : absolute;
-    top : 15px;
-    left : 250px;
+    top : 2%;
+    left : 35%;
 
 }
 #diagramView{
     height : 800px;
-    width : 100%;
+    min-width : 800px;
     background-color: #ff4d4d;
 }
 #Details{
@@ -72,14 +71,15 @@ section{
 #Details p{
     position : absolute;
     top : 0px;
-    left : 250px;
-
+    left : 35%;
 }
 #photowrapper{
     position: relative;
 }
 #photowrapper img{
     position: absolute;
+    height: 700px;
+    width: 800px;
     top : 55px;
     left : 155px;
 }
